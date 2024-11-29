@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 50vh;
+  background-color: #979797;
+  color: rgb(153, 79, 79);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+section {
+  max-width: 1200px;
+  padding: 15px;
+  background: #979797;
+  margin-left: 0;
+  margin-right: 35px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  margin-bottom: 1.25rem;
+}
+p {
+  color: rgb(153, 79, 79);
+  width: 90%;
+  max-width: 1200;
+  margin-bottom: 1rem;
+}
+img {
+  display: block;
+  margin-left: 10;
+  max-width: 20%;
+  height: auto;
+}
+nav {
+  width: 90%;
+  max-width: 1200px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 2rem;
+  display: block;
+}
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+nav a,
+nav a:visited {
+  color: blue;
+}
+mark {
+  background-color: yellow;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  padding: o;
+}
+.lista li {
+  margin-bottom: 0.5rem;
+  list-style: square;
+}
+.mark {
+  background-color: yellow;
+  color: black;
+  width: 90%;
+  margin-bottom: 1rem;
+}
